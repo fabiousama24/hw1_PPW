@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Pengguna</title>
+  <link rel="stylesheet" href="style_user.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <span class="logo">Parfumy</span>
+      <input type="text" class="search" placeholder="Search..." />
+      <nav>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <a href="#" class="active"><i class="fas fa-user"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="profile-container">
+      <h1>Profile Saya</h1>
+      <div class="profile-content">
+        <div class="form-section">
+          <input type="text" placeholder="Nama : Nama Pengguna" />
+          <input type="email" placeholder="Email : Email Pengguna" />
+          <input type="text" placeholder="Nomor Telp : 0856******" />
+          <input type="text" placeholder="Alamat : jl. melati" />
+          <div class="gender">
+            <label>Jenis Kelamin :</label>
+            <label><input type="radio" name="gender" /> Laki - Laki</label>
+            <label><input type="radio" name="gender" /> Perempuan</label>
+            <label><input type="radio" name="gender" /> Lainnya</label>
+          </div>
+          <button class="save-button">Simpan</button>
+        </div>
+        <div class="profile-picture">
+          <button class="edit-button">Edit ✎</button>
+          <div class="avatar"></div>
+          <div class="username">Username</div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
